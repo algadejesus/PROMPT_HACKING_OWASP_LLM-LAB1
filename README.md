@@ -6,7 +6,7 @@ Este repositório contém o laboratório prático de cibersegurança em Intelig�
 
 ## 🎯 Objetivo do Laboratório
 
-Demonstrar na prática como falhas de concatenação direta em Large Language Models (LLMs) permitem ataques de *Prompt Injection* e *Jailbreak*, comprometendo dados confidenciais corporativos, e como mitigá-las utilizando barreiras defensivas em Python (*Output Guardrails*).
+Demonstrar na prática como a vulnerabilidade **OWASP LLM01** (Prompt Injection Direto e Jailbreak) permite manipular o comportamento de uma LLM através de técnicas de engenharia social, troca de papel (*roleplay*) e *override* de sistema para vazar dados confidenciais corporativos, e como implementar barreiras defensivas de inspeção de saída (*Output Guardrails*) no backend Python para mitigar esse risco.
 
 * **Modelo Utilizado:** Qwen 2.5 (1.5B-Instruct) via Hugging Face Pipeline
 * **Ambiente de Execução:** Google Colab (GPU T4)
